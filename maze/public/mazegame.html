@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maze Game</title>
+        <meta http-equiv="Content-type" content='text/html;charset=UTF-8' />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="javascripts/mozxpath.js"></script>
+        <script type="text/javascript" src="javascripts/mazegame.js"></script>
+    </head>
+    <body>
+        <h1>Maze Game</h1>
+        <div id="play-space">
+            <div id="history"></div>
+            <div id="display">
+                <span class="prompt">You have the following options:</span>
+                <span class="options"></span>
+            </div>
+            <form name="interface">
+                <fieldset>
+                    <legend>What would you like to do?</legend>
+                    <input type="text" name="move" value="" />
+                    <input type="button" value="Go" />
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
